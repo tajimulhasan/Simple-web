@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar-container {
+    background-image: linear-gradient(to left, red, black);
+    height: 44px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+
+
+}
+
+.menu-bar-container ul {
+
+    display: flex;
+    position: relative;
+    left: 600px;
+
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 4px;
+    margin: 6px;
+    padding-left: 8px;
+
+
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+
+
+
+}
+
+.log h1 {
+    color: white;
+    padding-left: 55px;
+    padding-top: 8px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
+.paragraph-sec {
+    margin-top: 100px;
+
+}
+
+.paragraph {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}
+
+.paragraph p {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph h3 {
+    font-size: 33px;
+    padding-bottom: 22px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(29, 28, 29), rgb(143, 2, 37));
+    border-radius: 60px;
+    height: 33px;
+    width: 250px;
+    cursor: pointer;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.button {
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+}
